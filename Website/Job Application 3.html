@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+    font-size: 32px;
+}
+
+li.dropdown {
+    display: inline-block;
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+<table width="100%" border="1" align="center">
+  <tbody>
+    <tr>
+      <td width="68%" bgcolor="#000000"><ul>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Links</a>
+    <div class="dropdown-content">
+      <a href="MAIN.html">Home</a>
+      <a href="Courses.html">Courses</a>
+      <a href="Job Application.html">Job Application</a>
+	  <a href="Job Specification.html">Job Specification</a>
+	  <a href="Teams.html">Teams</a>
+    </div>
+  </li>
+</ul>&nbsp;</td>
+      <td width="23%" align="center" bgcolor="#000000" style="color: #FFFFFF"> 
+      <input type="text" placeholder="Search">&nbsp;</td>
+      <td width="9%" align="center" bgcolor="#000000"><img src="file:///O|/Website/profile icon.png" width="25" height="25" alt=""/></td>
+    </tr>
+    <tr>
+      <td height="897" colspan="3" bgcolor="#FFFFFF"><table width="100%" height="80%" border="0">
+        <tbody>
+          <tr>
+            <td height="157" align="left" valign="top"><table width="1023" border="0">
+              <tbody>
+                <tr>
+                  <td width="260"><img src="file:///O|/Website/HBW.png" width="260" height="211" alt=""/></td>
+                  <td width="747" style="text-align: center; font-size: 56px; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif; font-weight: bolder;">&nbsp;</td>
+                </tr>
+              </tbody>
+            </table></td>
+           
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Job Application Form</title>
+</head>
+<body>
+	<form action="submit-form.php" method="post">
+		<h1 style="text-align:center">Job Application Form</h1>
+		<p>Please fill out the following information:</p>
+		<label for="name">Name:</label>
+		<input type="text" name="name" id="name" required>
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email" required>
+		<label for="phone">Phone:</label>
+		<input type="tel" name="phone" id="phone" required>
+		<label for="resume">Upload Resume:</label>
+		<input type="file" name="resume" id="resume" accept=".pdf,.doc,.docx" required>
+		<label for="cover-letter">Cover Letter:</label>
+		<textarea name="cover-letter" id="cover-letter" required></textarea>
+		<label for="position">Position Applied For:</label>
+		<input type="text" name="position" id="position" required>
+		<label for="salary">Salary Expectation:</label>
+		<input type="text" name="salary" id="salary" required>
+		<label for="availability">Availability:</label>
+		<input type="text" name="availability" id="availability" required>
+		<button type="submit">Submit Application</button>
+	</form>
+</body>
+</html>
